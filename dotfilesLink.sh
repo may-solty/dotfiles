@@ -9,7 +9,7 @@ ln -sf ~/dotfiles/.editorconfig ~/.editorconfig
 
 # tmux
 ln -sf ~/dotfiles/.tmux.conf ~/.tmux.conf
-if [ -d ~/.bash/conf ]; then
+if [ ! -d ~/.bash/conf ]; then
     mkdir -p ~/.bash/conf
 fi
 ln -sf ~/dotfiles/tmux.bash ~/.bash/conf/tmux.bash
