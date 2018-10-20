@@ -13,3 +13,10 @@ if [ ! -d ~/.bash/conf ]; then
     mkdir -p ~/.bash/conf
 fi
 ln -sf ~/dotfiles/tmux.bash ~/.bash/conf/tmux.bash
+
+# vim
+ln -sf ~/dotfiles/.vimrc ~/.vimrc
+if [ ! -f ~/.vim/bundle/neobundle.vim ]; then
+    mkdir -p ~/.vim/bundle
+    git clone git://github.com/Shougo/neobundle.vim ~/.vim/bundle/neobundle.vim
+fi
