@@ -1,5 +1,9 @@
 # .bashrcは起動時に毎回実行される
 
+# Import
+bash_conf=~/.bash/conf/
+. $bash_conf/tmux.bash
+
 # コマンドプロンプンプトの表示を変更する
 PS1='\e[0;36m[\W] \e[0m\$ \e[0m'
 
