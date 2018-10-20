@@ -1,7 +1,7 @@
 # .bashrcは起動時に毎回実行される
 
 # Import
-bash_conf=~/.bash/conf/
+bash_conf=~/.bash/conf
 . $bash_conf/tmux.bash
 
 # コマンドプロンプンプトの表示を変更する
