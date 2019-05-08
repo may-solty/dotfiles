@@ -1,6 +1,6 @@
 # dotfiles
-* .vimrc
-* .bash_profile
-* .bashrc
-* .tmux.conf
-
+* bash
+* fish
+* omf
+* tmux
+* vim
