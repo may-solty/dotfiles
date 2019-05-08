@@ -1,59 +1,31 @@
 root = true
 
 [*]
-end_of_line = cr
 charset = utf-8
-trim_trailing_whitespace = true
+end_of_line = lf
+indent_size = 4
+indent_style = space
 insert_final_newline = true
 max_line_length = 100
-indent_style = space
-indent_size = 4
+trim_trailing_whitespace = true
 
-#[*.md]
-#trim_trailing_whitespace = false
-
-#[*.{json,yml}]
-#indent_style = space
-#indent_size = 2
-
-[*.html]
-indent_style = space
-indent_size = 2
-
-[*.css]
-indent_style = space
-indent_size = 2
-
-# Sass
-[*.scss]
-indent_style = space
-indent_size = 2
-
-# JavaScript
-[*.js]
-indent_style = space
-indent_size = 2
-
-# Coffee Script
-[*.coffee]
-indent_style = space
-indent_size = 2
-
-[*.yml]
-indent_style = space
-indent_size = 2
-
-# Template of CakePHP
 [*.ctp]
-indent_style = space
 indent_size = 2
+indent_style = space
 
-# Ruby
-[*.rb]
-indent_style = space
+[*.{rb,erb,slim}]
 indent_size = 2
+indent_style = space
 
-# Template of Ruby on Rails
-[*.erb]
-indent_style = space
+[*.{html,css,scss,js,coffee}]
 indent_size = 2
+indent_style = space
+
+[*.{yml,json}]
+indent_size = 2
+indent_style = space
+
+[*.md]
+indent_size = 2
+indent_style = space
+trim_trailing_whitespace = false
