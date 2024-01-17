@@ -1,24 +1,15 @@
 root = true
 
 [*]
-charset = utf-8
 end_of_line = lf
-indent_size = 4
-indent_style = space
+charset = utf-8
+trim_trailing_whitespace = true
 insert_final_newline = true
 max_line_length = 100
-trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
 
-[*.ctp]
-indent_size = 2
-
-[*.{rb,erb,slim}]
-indent_size = 2
-
-[*.{html,css,scss,js,coffee}]
-indent_size = 2
-
-[*.{yml,json}]
+[*.{html,css,scss,js,coffee,ts,yml,json,rb,erb,slim}]
 indent_size = 2
 
 [*.md]
