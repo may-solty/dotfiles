@@ -9,7 +9,7 @@ max_line_length = 100
 indent_style = space
 indent_size = 4
 
-[*.{html,css,scss,js,coffee,ts,yml,json,rb,erb,slim}]
+[*.{html,css,scss,js,coffee,ts,vue,yml,json,rb,erb,slim}]
 indent_size = 2
 
 [*.md]
